@@ -1,0 +1,5 @@
+name: BandMaster
+author: Hancho
+version: 1.0.0
+main: bandMaster.BandMaster
+api: [1.0.0]
