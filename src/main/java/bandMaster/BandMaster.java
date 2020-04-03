@@ -68,7 +68,7 @@ public class BandMaster extends PluginBase {
 		con.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
 		con.setRequestProperty("User-Agent", USER_AGENT);
 		con.setRequestMethod("POST"); // HTTP POST 메소드 설정
-		con.setDoOutput(false); // POST 파라미터 전달을 위한 설정
+		con.setDoOutput(true); // POST 파라미터 전달을 위한 설정
 
 		DataOutputStream wr = new DataOutputStream(con.getOutputStream());
 		wr.writeBytes(parameters);
